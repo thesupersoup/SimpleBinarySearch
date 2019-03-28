@@ -38,8 +38,8 @@ class BinarySearch<T extends Comparable> {
                 i = nIndex;
             }
         } else {
-            System.out.println("Index out of bounds, returning nIndex");
-            i = nIndex;
+            System.out.println("Index out of bounds, returning -1");
+            i = -1;
         }
 
         return i;
